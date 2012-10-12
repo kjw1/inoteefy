@@ -1,0 +1,4 @@
+inoteefy
+========
+
+Erlang inotify wrapper
