@@ -41,7 +41,7 @@ start() ->
 stop() -> 
     gen_server:cast(?MODULE, stop).
 
-watch(File,Callback) ->
+watch(File, Callback) ->
     gen_server:cast(?MODULE, {watch, {File, Callback}}).
 
 unwatch(File) -> 
